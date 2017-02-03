@@ -34,10 +34,9 @@ wget https://www.dropbox.com/download?dl=packages/ubuntu/dropbox_2015.10.28_amd6
 dpkg -i dropbox_2015.10.28_amd64.deb
 
 # Install atom packages
-apm install autocomplete-clang language-ini linter linter-pep8 open-recent \
-  linter-rubocop minimap minimap-highlight-selected todo-show tool-bar \
-  file-icons script
-
+apm install autocomplete-python linter linter-pycodestyle go-plus go-debug\
+  vim-mode language-docker minimap minimap-highlight-selected todo-show tool-bar \
+  file-icons atom-alignment atom-material-syntax atom-material-ui  \
 # Vivacious themes repo
 add-apt-repository ppa:ravefinity-project -y
 
